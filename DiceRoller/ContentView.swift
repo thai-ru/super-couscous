@@ -38,6 +38,7 @@ struct ContentView: View {
                     .buttonStyle(.bordered)
                     .padding()
                     .disabled(numberOfDice == 4)
+                    .symbolRenderingMode(.multicolor)
                 
                 Spacer()
                 
